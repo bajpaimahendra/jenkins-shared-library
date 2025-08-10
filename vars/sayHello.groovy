@@ -8,5 +8,5 @@ def buildImage(String tag) {
 }
 
 def showAllContainers(String containerName) {
-  sh "docker inspect ${containerName} ."
+  sh "docker inspect ${containerName}"
 }
